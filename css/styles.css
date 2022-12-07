@@ -1,0 +1,181 @@
+body {
+  /* background-color: rgb(243, 114, 114) !important; */
+  font-family: 'Montserrat',sans-serif;
+}
+
+div {
+  font-family: 'Montserrat',sans-serif;
+}
+
+/* title section */
+.container-fluid {
+  background-color:#E97777
+}
+
+
+.navbar a {
+  color: rgb(220, 215, 215);
+}
+
+.container-fluid {
+
+  padding: 0 10%;
+
+}
+
+.margin50{
+margin: 0px 50px 50px 50px;
+}
+.downloadbtnbox {
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.row {
+  text-align: center;
+}
+
+.toptitle {
+font-family: 'Ubuntu', sans-serif;
+font-size: 3em;
+
+margin-bottom: 50px;
+}
+
+.downloadbtn {
+  margin: 20px;
+}
+
+
+.titleImage {
+  position: relative;
+  top: 30px;
+  width: 50%;
+  transform: rotate(30deg);
+  left: 80px;
+}
+
+@media (max-width:1028px) {
+
+  .toptitle{
+    text-align: center;
+  }
+  .titleImage {
+    position: static;
+    transform: rotate(0);
+
+  }
+  
+}
+
+/* feartures section */
+
+.featuresContainer{
+  /* position: relative; */
+  padding: 3% 5%;
+  /* z-index: 1; */
+  /* margin-top: -50px; */
+}
+.featuresbox {
+  padding: 1% 10%;
+  text-align: center;
+
+}
+
+.featuresicon {
+  color: #E97777;
+  margin-bottom: 2rem;
+}
+.featuresicon:hover {
+  color: #f43939;
+}
+
+
+/* Testimonials */
+
+.testimonials-box{
+
+  background-color: #E97777;
+  /* text-align: center; */
+  color: white;
+}
+
+.testimonials-box h2{
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+  padding: 2% 20%;
+  font-weight: bold;
+}
+.carousel-inner {
+  text-align: center;
+  padding: 2em auto;
+}
+.carousel-item {
+  margin:2em 2em;
+}
+
+
+.testimonials-box img {
+
+  width: 200px;
+  border-radius: 100px;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+.press-box{
+  padding: 2% 5%;
+  text-align: center;
+}
+.press-image {
+margin: 0 1em;
+
+}
+
+/* price section */
+
+.price-container {
+    width: 100%;
+    padding: 5% 10%;
+}
+.price-titlebox {
+  text-align: center;
+}
+.margin15 {
+  margin: 0 15px;
+  height: 100%;
+}
+
+.card-body button {
+  margin-top: 20px;
+
+}
+
+.card-deck {
+  padding-top: 30px;
+}
+
+
+/* cta */
+
+.cta {
+  background-color: #E97777;
+  text-align: center;
+  padding: 5%;
+}
+.cta h3{
+  font-size: 3em;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  padding: 50px;
+}
+.footer p {
+  margin-top: 20px;
+}
+.footer-icon  {
+  margin-left: 30px;
+}
+
